@@ -8,11 +8,11 @@
     /* grid-template-rows: repeat(16, 1fr); */
 
     margin: auto;
-    width: 50vh;
-    height: 50vh;
+    width: 75vh;
+    height: 75vh;
 
 }
 
-.etch-a-sketch div:hover{
+.active-pixel{
     background-color: aqua;
 }
