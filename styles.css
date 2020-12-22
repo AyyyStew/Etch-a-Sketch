@@ -1,3 +1,18 @@
 .pixel{
-    border: 1px solid red;
+    background-color: black;
+}
+
+.etch-a-sketch{
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    /* grid-template-rows: repeat(16, 1fr); */
+
+    margin: auto;
+    width: 50vh;
+    height: 50vh;
+
+}
+
+.etch-a-sketch div:hover{
+    background-color: aqua;
 }
