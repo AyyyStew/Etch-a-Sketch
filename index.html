@@ -19,14 +19,15 @@
     <!-- container for the etch-a sketch -->
     <div class="etch-a-sketch"></div>
 
-    <div id="color-picker">
-        <input type="color" id="color-picker" name="color-picker" value="#ffffff">
+    <div id="color-options">
+        <input id="color-picker" name="color-picker" data-jscolor="" value="FFFFFF">
         <label for="color-picker">Color</label>
 
-        <input type="color" id="background-color-picker" name="background-color-picker" value="#ffffff">
+        <input id="background-color-picker" name="background-color-picker" data-jscolor="" value="000000">
         <label for="background-color-picker">Background Color</label>
     </div>
 
     <script src="etch-a-sketch.js"></script>
+    <script src="thirdparty/jscolor.js"></script>
 </body>
 </html>
