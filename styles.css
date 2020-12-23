@@ -14,5 +14,34 @@
 }
 
 .active-pixel{
-    
+    /* class used to hold state of pixels might add animations later. */
+}
+
+
+
+/* animation stuff */
+/* from  https://www.gradient-animator.com/*/
+.gradient-fade{
+    background: linear-gradient(270deg, red, green,blue);
+    background-size: 800% 800%;
+
+    -webkit-animation: fade 38s ease infinite;
+    -moz-animation: fade 38s ease infinite;
+    animation: fade 38s ease infinite;
+}
+
+@-webkit-keyframes fade {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes fade {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes fade {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }

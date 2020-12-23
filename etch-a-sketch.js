@@ -32,6 +32,7 @@ function drawGrid(width, height){
         pixel.classList.add("pixel") //add the basic pixel styling to the pixels
         pixel.addEventListener('mouseover', (e) =>{
             pixel.classList.replace("pixel", "active-pixel")
+            pixel.classList.add("gradient-fade")
             pixel.style.backgroundColor = color.value
         })
         canvas.appendChild(pixel) //add the pixels to the dom
@@ -60,6 +61,9 @@ function newGrid(){
 
     return
 }
+
+
+
 
 
 newGrid()
